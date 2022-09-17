@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "name": "madhu",
+      "email": "abc@gmail.com",
+      "address": "bangalore",
+      "contact": 8709181793,
+      "id": 1
+    },
+    {
+      "name": "Larry",
+      "email": "larry@gmail.com",
+      "contact": "8687657645",
+      "address": "Sitamarhi",
+      "id": 2
+    }
+  ]
+}
