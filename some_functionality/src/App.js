@@ -7,6 +7,7 @@ import TodoInput from './component/TodoInput';
 import TodoItem from './component/TodoItem';
 import data from './accordiancomponent/data';
 import Accordian from './accordiancomponent/Accordian';
+import HOCComponent from './hoc/HOCComponent';
 
 
 function App() {
@@ -78,6 +79,8 @@ function App() {
           })
         }
       </div>
+      {/* -----------------------HOC Concept--------------------------- */}
+      <HOCComponent />
     </div>
   );
 }
