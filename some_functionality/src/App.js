@@ -8,6 +8,7 @@ import TodoItem from './component/TodoItem';
 import data from './accordiancomponent/data';
 import Accordian from './accordiancomponent/Accordian';
 import HOCComponent from './hoc/HOCComponent';
+import Demo from './debouncing/index';
 
 
 function App() {
@@ -81,6 +82,8 @@ function App() {
       </div>
       {/* -----------------------HOC Concept--------------------------- */}
       <HOCComponent />
+      {/* ----------------------------Debouncing and throttling implementation--------- */}
+        <Demo />
     </div>
   );
 }
