@@ -9,6 +9,7 @@ import data from './accordiancomponent/data';
 import Accordian from './accordiancomponent/Accordian';
 import HOCComponent from './hoc/HOCComponent';
 import Demo from './debouncing/index';
+import DemoCallback from './usecallback/index';
 
 
 function App() {
@@ -81,9 +82,11 @@ function App() {
         }
       </div>
       {/* -----------------------HOC Concept--------------------------- */}
-      <HOCComponent />
+      {/* <HOCComponent /> */}
       {/* ----------------------------Debouncing and throttling implementation--------- */}
-        <Demo />
+        {/* <Demo /> */}
+        {/* ------------------usecallback------------- */}
+        <DemoCallback />
     </div>
   );
 }
