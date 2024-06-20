@@ -23,7 +23,7 @@ export default function DemoUseMemo() {
     }, [dark])
 
     useEffect(() => {
-        console.log('theme changed');
+        console.log('theme changed');   
     }, [themeStyle])
 
     return (
