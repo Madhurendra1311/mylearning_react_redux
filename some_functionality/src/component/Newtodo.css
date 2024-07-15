@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.task-input {
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.task-input button {
+    padding: 5px 10px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.task-list li.selected {
+    background-color: #f0f0f0;
+    border-color: #000;
+}
+
+.task-list li h3 {
+    margin: 0;
+}
+
+.task-list li p {
+    margin: 5px 0;
+}
+
+.task-list li button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}

@@ -1,0 +1,26 @@
+.game-board {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 320px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: #BEB7A4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid #000;
+    user-select: none;
+  }
+  
+  .card.flipped {
+    background-color: #FFF;
+  }
+  

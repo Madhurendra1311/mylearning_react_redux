@@ -10,6 +10,7 @@ import Accordian from './accordiancomponent/Accordian';
 import HOCComponent from './hoc/HOCComponent';
 import Demo from './debouncing/index';
 import DemoCallback from './usecallback/index';
+import ConcentrationGame from './component/ConcentrationGame';
 
 
 function App() {
@@ -86,7 +87,8 @@ function App() {
       {/* ----------------------------Debouncing and throttling implementation--------- */}
         {/* <Demo /> */}
         {/* ------------------usecallback------------- */}
-        <DemoCallback />
+        {/* <DemoCallback /> */}
+        <ConcentrationGame />
     </div>
   );
 }
