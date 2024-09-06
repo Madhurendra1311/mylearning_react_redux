@@ -21,7 +21,7 @@ export default function DemoUseMemo() {
             color: dark ? '#FFF' : '#333'
         }
     }, [dark])
-
+  
     useEffect(() => {
         console.log('theme changed');   
     }, [themeStyle])

@@ -70,7 +70,7 @@ function App() {
         ))
       }
       {/* ----------------Accordian--------------- */}
-      <h1>React accordian demo</h1>
+      {/* <h1>React accordian demo</h1> */}
       <div className="accordion">
         {
           data.map((each, i) => {

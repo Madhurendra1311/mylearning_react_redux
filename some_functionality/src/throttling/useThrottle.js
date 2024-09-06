@@ -7,6 +7,7 @@ export function useThrottle(value, interval = 500) {
 
     useEffect(() => {
         if(Date.now() >= lastExec.current + interval) {
+            
             setThrottleVal(val)
             lastExec.current = Date.now()
         } else {
@@ -14,6 +15,8 @@ export function useThrottle(value, interval = 500) {
                 setThrottleVal(value)
                 lastExec.current = Date.now()
             }, interval)
+
+            return () => clearTimeout(timeId)
         }
     }, [value, interval])
 
